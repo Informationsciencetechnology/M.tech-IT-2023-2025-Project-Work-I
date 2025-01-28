@@ -1,0 +1,107 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  /* Container for the user page */
+  .user-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header styling */
+  .user-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .user-name {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #34495e;
+    margin-bottom: 10px;
+  }
+  
+  .user-location {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+  }
+  
+  /* User details section */
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .user-info, .user-activities {
+    background: #f9fafc;
+    border: 1px solid #e1e5eb;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .user-info h2, .user-activities h2 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+  }
+  
+  .user-info p, .user-activities p {
+    font-size: 1.1rem;
+    color: #34495e;
+    margin: 5px 0;
+  }
+  
+  .activity-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e1e5eb;
+  }
+  
+  .activity-item:last-child {
+    border-bottom: none;
+  }
+  
+  .activity-title {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .activity-date {
+    font-size: 1rem;
+    color: #95a5a6;
+  }
+  
+  /* Add hover effects for activities */
+  .activity-item:hover {
+    background: #e9f7fd;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .user-container {
+      padding: 20px;
+    }
+  
+    .user-name {
+      font-size: 2.2rem;
+    }
+  
+    .user-info h2, .user-activities h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

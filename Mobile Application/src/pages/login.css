@@ -1,0 +1,101 @@
+/* login.css */
+
+/* General page styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #e0f7fa; /* Light cyan background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Form container */
+  .login-form-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Title */
+  .login-title {
+    font-size: 28px;
+    color: #00796b; /* Teal color to relate to nature */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+  
+  /* Form styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .input-label {
+    font-size: 16px;
+    color: #00796b;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .input-field:focus {
+    border-color: #004d40; /* Darker teal on focus */
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    background-color: #00796b;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .submit-btn:hover {
+    background-color: #004d40;
+    transform: translateY(-3px);
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .login-form-container {
+      padding: 30px;
+      max-width: 100%;
+    }
+  
+    .login-title {
+      font-size: 24px;
+    }
+  
+    .submit-btn {
+      padding: 10px 18px;
+      font-size: 16px;
+    }
+  }
+  
